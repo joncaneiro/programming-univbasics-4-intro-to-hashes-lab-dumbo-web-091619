@@ -33,13 +33,14 @@ def update_counting_hash(hash, key)
   
   if 
      hash[key]
-     puts hash[key] += 1
+     hash[key] += 1
      
   else
-     puts hash[key] = 1
+     hash[key] = 1
      
   end
 
+return hash
 
 end
 
